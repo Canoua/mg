@@ -1,0 +1,103 @@
+.gallery{
+	font-family: 'Montserrat', sans-serif;
+	overflow: hidden;
+}
+.gallery__inner{
+	display: flex;
+	justify-content: space-between;
+	padding: 200px 50px;
+}
+.gallery__logo{
+	margin-right: 80px;
+}
+.gallery__logo img{
+	width: 400px;
+}
+.gallery__title{
+	margin-bottom: 15px;
+}
+.gallery__info{
+	color: #000;
+	font-weight: 600;
+	font-size: 46px;
+	line-height: 56px;
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.gallery__info span{
+	color: rgba(0, 0, 0, 0.46);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 31px;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+.gallery__link{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	background-color: #0F8CD2;
+	padding: 15px 24px 12px 22px;
+}
+.gallery__link:hover{
+    opacity: 0.8;
+}
+.gallery-bg{
+	background-color: #abdfff;
+}
+.gallery-content__wrapper{
+	padding: 100px 0;
+}
+.gallery-content{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0 50px;
+	margin-bottom: 200px;
+}
+.gallery-content__box{
+	width: 400px;
+	align-items: center;
+}
+.gallery-content__item{
+	width: 100%;
+}
+.gallery-content__item-img{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.gallery-content__item-img img{
+	width: 100%;
+	height: auto;
+	border-radius: 20px;
+}
+.gallery-content__item-title{
+	text-align: center;
+	font-size: 17px;
+	line-height: 21px;
+	font-weight: 700;
+}
+.gallery-slider{
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+.slide{
+	outline: none;
+	width: 100%;
+	height: 400px;
+}
+.slide img{
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+}
+.footer-gallery{
+	background-color: #0F8CD2;
+}

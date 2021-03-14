@@ -1,0 +1,61 @@
+.header{
+	background-image: url(../img/zagrazhdeniya/slider-image4.jpg) !important;
+}
+.header-bottom{
+	display: flex;
+	align-items: center;
+	height: 85vh;
+}
+.zagr-header_wrapper{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+	opacity: 0.6;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+.zagr-header_title{
+	color: #000;
+	font-weight: 600;
+	font-size: 46px;
+	line-height: 56px;
+	text-align: center;
+}
+.zagr-header_text{
+	width: 100%;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	text-align: center;
+}
+.zagr-content_inner{
+	padding: 100px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.zagr-content_item{
+	margin-bottom: 50px;
+}
+.zagr-content_img{
+	margin-bottom: 20px;
+}
+.zagr-content_img img{
+	width: 270px;
+}
+.zagr-content_title{
+	text-align: center;
+}
+.zagr-content_title a{
+	color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#zagr-header__list-link{
+	color: #fff;
+}
+#zagr-header__list-link:hover:after{
+	background-image: none;
+}

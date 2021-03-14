@@ -1,0 +1,114 @@
+.company{
+	font-family: 'Montserrat', sans-serif;
+}
+.company__wrapper{
+	padding: 100px;
+}
+.company__inner{
+	display: flex;
+	justify-content: space-between;
+	padding: 150px 50px;
+}
+.company__logo img{
+	width: 400px;
+}
+.company__title{
+	margin-bottom: 15px;
+}
+.company__info{
+	color: #000;
+	font-weight: 600;
+	font-size: 46px;
+	line-height: 56px;
+	display: block;
+	width: 650px;
+	margin: 0 auto;
+}
+.company__info span{
+	color: rgba(0, 0, 0, 0.46);
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 31px;
+    width: 500px;
+    display: block;
+    margin-bottom: 15px;
+}
+.company__link{
+	font-family: Montserrat;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	color: #FFFFFF;
+	background-color: #0F8CD2;
+	padding: 15px 24px 12px 22px;
+}
+.company__link:hover{
+    opacity: 0.8;
+}
+.company__item{
+	font-family: Montserrat;
+	margin: 200px 100px 400px 30px;
+	position: relative;
+}
+.company__item:first-child{
+	margin-top: 0;
+}
+.company__item-title{
+	color: #000;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	color: #0F8CD2;
+	margin: 0 15px 15px 15px;
+}
+.company__item-img img{
+	width: 700px;
+	height: 430px;
+}
+.company__item-text{
+	font-weight: 500;
+    font-size: 17px;
+    line-height: 35px;
+    width: 70%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: -100px;
+    padding: 25px;
+   border-radius: 20px;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.company__item-reverse{
+	position: relative;
+	font-family: Montserrat;
+}
+.company__item-title--reverse{
+	color: #000;
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 54px;
+	color: #0F8CD2;
+	margin-bottom: 15px;
+	position: absolute;
+	top: -120px;
+}
+.company__item-img--reverse{
+	text-align: right;
+}
+.company__item-img--reverse img{
+	width: 700px;
+	height: 430px;
+}
+.company__item-text--reverse{
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 35px;
+	width: 70%;
+	background-color: #fff;
+	position: absolute;
+	top: -50px;
+	left: 0;
+	padding: 25px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}

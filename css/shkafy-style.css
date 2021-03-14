@@ -1,0 +1,56 @@
+.header{
+	background-image: url(../img/shkafy/slider-image2.jpg);
+}
+.header-bottom{
+	display: flex;
+	align-items: center;
+	height: 85vh;
+}
+.shkafy-header_wrapper{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+	opacity: 0.6;
+	width: 70%;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+}
+.shkafy-header_title{
+	color: #000;
+	font-weight: 600;
+	font-size: 46px;
+	line-height: 56px;
+	text-align: center;
+}
+.shkafy-header_text{
+	width: 100%;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 21px;
+	text-align: center;
+}
+.shkafy-content_inner{
+	padding: 100px 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.shkafy-content_item{
+	margin-bottom: 50px;
+}
+.shkafy-content_img{
+	margin-bottom: 20px;
+}
+.shkafy-content_img img{
+	width: 270px;
+}
+.shkafy-content_title{
+	text-align: center;
+}
+.shkafy-content_title a{
+	color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
